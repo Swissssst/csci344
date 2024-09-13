@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Your code here */
+
+header {
+    background-color: blueviolet;
+    padding: 40px;
+}
+
+section {
+    border-style: solid;
+    border-color: white;
+    border-radius: 2px;
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+main {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+section {
+    background-color: aqua;
+    padding: 15px 10px 30px 10px;
+}
+

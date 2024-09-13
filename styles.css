@@ -1,0 +1,10 @@
+body {
+    background-color: rgb(182, 34, 182);
+}
+
+section {
+    border: solid lightgray;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+}

@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+}
+
+
+section {
+    display: grid;
+    grid-template-columns: 2fr, 1fr;
+
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 5px;
+    padding-left: 10px;
+    border: solid lightgray;
+    border-radius: 2px;
+    margin: 0px;
+    gap: 10px;
+    align-items: center;
+}
+
+.card div {
+    grid-column: 1;;
+}
+
+.card img{
+    grid-column: 2;
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+p {
+    color: gray;
+}
