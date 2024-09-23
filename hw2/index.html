@@ -1,0 +1,268 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <title>Photo App Interface</title>
+</head>
+<body>
+    <!-- Fixed -->
+    <header id="top-header">
+        <h1 class="logo">
+            NotStagram
+        </h1>
+        <nav>
+            <div class="nav-right">
+                <div class="profile-box">Profile Name</div>
+                <a href="#">Sign Out</a></div>
+            </div>
+        </nav>
+    </header>
+
+    <aside>
+        <!-- username stuff -->
+        <header class="user-profile">
+            <img src="https://picsum.photos/80" alt="User Profile Pic" class="profile-pic">
+            <div class="username">Current User</div>
+        </header>
+        
+        <!-- suggestions for you -->
+        <section>
+            <h2 id="suggestions-text">Suggestions for you</h2>
+            
+            <!-- suggested accounts -->
+            <div class="suggestions">
+                <div class="suggestion-container">
+                    <img src="https://picsum.photos/80" alt="Suggested User 1" class="suggested-pic">
+                    <div class="suggested-info">
+                        <span class="suggested-username">user1</span>
+                        <span class="suggested-for-you">suggested for you</span>
+                    </div>
+                    <a href="#" class="follow-link">follow</a>
+                </div>
+    
+                <div class="suggestion-container">
+                    <img src="https://picsum.photos/80" alt="Suggested User 2" class="suggested-pic">
+                    <div class="suggested-info">
+                        <span class="suggested-username">user2</span>
+                        <span class="suggested-for-you">suggested for you</span>
+                    </div>
+                    <a href="#" class="follow-link">follow</a>
+                </div>
+
+                <div class="suggestion-container">
+                    <img src="https://picsum.photos/80" alt="Suggested User 3" class="suggested-pic">
+                    <div class="suggested-info">
+                        <span class="suggested-username">user3</span>
+                        <span class="suggested-for-you">suggested for you</span>
+                    </div>
+                    <a href="#" class="follow-link">follow</a>
+                </div>
+
+                <div class="suggestion-container">
+                    <img src="https://picsum.photos/80" alt="Suggested User 4" class="suggested-pic">
+                    <div class="suggested-info">
+                        <span class="suggested-username">user4</span>
+                        <span class="suggested-for-you">suggested for you</span>
+                    </div>
+                    <a href="#" class="follow-link">follow</a>
+                </div>
+
+                <div class="suggestion-container">
+                    <img src="https://picsum.photos/80" alt="Suggested User 5" class="suggested-pic">
+                    <div class="suggested-info">
+                        <span class="suggested-username">user5</span>
+                        <span class="suggested-for-you">suggested for you</span>
+                    </div>
+                    <a href="#" class="follow-link">follow</a>
+                </div>
+            </div>
+        </section>
+    </aside>
+
+    <!-- Normal -->
+    <main>
+        <section>
+            <section class="stories-panel">
+                <!-- story 1 -->
+                <div class="story">
+                    <img src="https://picsum.photos/80" alt="Story 1" class="story-pic">
+                    <div class="story-username">user1</div>
+                </div>
+        
+                <!-- story 2 -->
+                <div class="story">
+                    <img src="https://picsum.photos/80" alt="Story 2" class="story-pic">
+                    <div class="story-username">user2</div>
+                </div>
+        
+                <!-- story 3 -->
+                <div class="story">
+                    <img src="https://picsum.photos/80" alt="Story 3" class="story-pic">
+                    <div class="story-username">user3</div>
+                </div>
+        
+                <!-- story 4 -->
+                <div class="story">
+                    <img src="https://picsum.photos/80" alt="Story 4" class="story-pic">
+                    <div class="story-username">user4</div>
+                </div>
+        
+                <!-- story 5 -->
+                <div class="story">
+                    <img src="https://picsum.photos/80" alt="Story 5" class="story-pic">
+                    <div class="story-username">user5</div>
+                </div>
+        </section>
+
+        <!-- post header with username icon 4x -->
+        <div class="post-card">
+                <div class="post-header">
+                    <div class="post-creator">
+                        <img src="https://picsum.photos/40" alt="Creator Profile" class="profile-pic">
+                        <span class="username">user</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <img src="https://picsum.photos/500/300" alt="Post Image" class="post-image">
+                <div class="post-icons">
+                    <div class="icons-left">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-comment"></i>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </div>
+                    <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <div class="post-likes"><strong>500 likes</strong></div>
+                <div class="post-caption">
+                    <span id="caption" class="caption-text">Example caption to overflow and test more text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</span>
+                    <a href="#caption" class="more-link">more</a>
+                </div>
+                <div class="post-comments">
+                    <div class="comment">
+                        <span class="comment-username">comment_user1</span> Comment 1
+                    </div>
+                    <div class="comment">
+                        <span class="comment-username">comment_user2</span> Comment 2
+                    </div>
+                </div>
+                <div class="add-comment">
+                    <i class="fa-solid fa-face-smile"></i>
+                    <input type="text" placeholder="Add a comment...">
+                    <a href="#">Post</a>
+                </div>
+            </div>
+            <div class="post-card">
+                <div class="post-header">
+                    <div class="post-creator">
+                        <img src="https://picsum.photos/40" alt="Creator Profile" class="profile-pic">
+                        <span class="username">user</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <img src="https://picsum.photos/500/300" alt="Post Image" class="post-image">
+                <div class="post-icons">
+                    <div class="icons-left">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-comment"></i>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </div>
+                    <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <div class="post-likes"><strong>500 likes</strong></div>
+                <div class="post-caption">
+                    <span id="caption" class="caption-text">Example caption to overflow and test more text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</span>
+                    <a href="#caption" class="more-link">more</a>
+                </div>
+                <div class="post-comments">
+                    <div class="comment">
+                        <span class="comment-username">comment_user1</span> Comment 1
+                    </div>
+                    <div class="comment">
+                        <span class="comment-username">comment_user2</span> Comment 2
+                    </div>
+                </div>
+                <div class="add-comment">
+                    <i class="fa-solid fa-face-smile"></i>
+                    <input type="text" placeholder="Add a comment...">
+                    <a href="#">Post</a>
+                </div>
+            </div>
+            <div class="post-card">
+                <div class="post-header">
+                    <div class="post-creator">
+                        <img src="https://picsum.photos/40" alt="Creator Profile" class="profile-pic">
+                        <span class="username">user</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <img src="https://picsum.photos/500/300" alt="Post Image" class="post-image">
+                <div class="post-icons">
+                    <div class="icons-left">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-comment"></i>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </div>
+                    <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <div class="post-likes"><strong>500 likes</strong></div>
+                <div class="post-caption">
+                    <span id="caption" class="caption-text">Example caption to overflow and test more text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</span>
+                    <a href="#caption" class="more-link">more</a>
+                </div>
+                <div class="post-comments">
+                    <div class="comment">
+                        <span class="comment-username">comment_user1</span> Comment 1
+                    </div>
+                    <div class="comment">
+                        <span class="comment-username">comment_user2</span> Comment 2
+                    </div>
+                </div>
+                <div class="add-comment">
+                    <i class="fa-solid fa-face-smile"></i>
+                    <input type="text" placeholder="Add a comment...">
+                    <a href="#">Post</a>
+                </div>
+            </div>
+            <div class="post-card">
+                <div class="post-header">
+                    <div class="post-creator">
+                        <img src="https://picsum.photos/40" alt="Creator Profile" class="profile-pic">
+                        <span class="username">user</span>
+                    </div>
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <img src="https://picsum.photos/500/300" alt="Post Image" class="post-image">
+                <div class="post-icons">
+                    <div class="icons-left">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-comment"></i>
+                        <i class="fa-solid fa-paper-plane"></i>
+                    </div>
+                    <i class="fa-solid fa-bookmark"></i>
+                </div>
+                <div class="post-likes"><strong>500 likes</strong></div>
+                <div class="post-caption">
+                    <span id="caption" class="caption-text">Example caption to overflow and test more text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text text</span>
+                    <a href="#caption" class="more-link">more</a>
+                </div>
+                <div class="post-comments">
+                    <div class="comment">
+                        <span class="comment-username">comment_user1</span> Comment 1
+                    </div>
+                    <div class="comment">
+                        <span class="comment-username">comment_user2</span> Comment 2
+                    </div>
+                </div>
+                <div class="add-comment">
+                    <i class="fa-solid fa-face-smile"></i>
+                    <input type="text" placeholder="Add a comment...">
+                    <a href="#">Post</a>
+                </div>
+            </div>
+    <!-- js script idk where it goes -->
+    <script src="main.js"></script>
+    </main>
+</body></html>

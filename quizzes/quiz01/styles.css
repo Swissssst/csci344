@@ -1,0 +1,84 @@
+body * {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header,
+main,
+footer {
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+
+header {
+    background-color: #013672;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+h1, h2, h3 {
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+h1, h2 {
+    margin-top: 25px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    border: solid lightgray 2px;
+    padding: 8px;
+    align-items: center;
+}
+
+.cards img {
+    object-fit: contain;
+    height: 125px;
+    align-items: center;
+}
+
+header img,
+footer img {
+    width: 200px;
+}
+
+@media (max-width: 800px) {
+    nav {
+        display: none;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 15px;
+    }
+}
