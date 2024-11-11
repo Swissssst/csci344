@@ -1,0 +1,17 @@
+.profile {
+    display: grid;
+    grid-template-columns: 100px auto;
+    gap: 20px;
+    background-color: #eee;
+    color: #444;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.profile h2 {
+    margin: 0;
+}
+
+.profile img {
+    width: 100px;
+}

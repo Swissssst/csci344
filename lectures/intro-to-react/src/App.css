@@ -1,0 +1,17 @@
+.people {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+@media screen and (max-width: 900px) {
+    .people {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .people {
+        grid-template-columns: auto;
+    }
+}
