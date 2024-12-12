@@ -1,0 +1,49 @@
+body {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    overflow-y: scroll;
+    padding: 5vw;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+.form {
+    display: grid;
+    grid-template-columns: 3fr 3fr 1fr;
+    border: solid 2px black;
+    padding: 20px;
+    gap: 30px;
+}
+
+.form label {
+    text-align: right;
+    display: inline-block;
+    font-weight: 600;
+}
+
+input,
+button {
+    font-size: 1.3rem;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+input {
+    background-color: white;
+    border: solid 1px #999;
+}
+
+main>div {
+    border: solid 2px black;
+    margin-top: 20px;
+    padding: 10px;
+    min-height: 200px;
+}
+
+img {
+    width: 100%;
+}
